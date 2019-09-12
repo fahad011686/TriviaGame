@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>*Genius Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center">Genious Quiz</h1>
+            <h4 class="text-center">Correctly answer questions within the time limit <br>to be legally considered a true genius.</h4>
+        </div>
+
+
+        <div class="col-lg-6 col-md-12 col-sm-12">Timer:
+            <div id="timer"></div>
+        </div>
+
+        <div class="col-lg-6 col-md-12 col-sm-12">Score:
+            <div id="yourScore"></div>
+        </div>
+
+        <div class="col-lg-6 col-md-12">
+            <button id="btn1" class="btn">A</button><hr>
+            <button id="btn2" class="btn">B</button><hr>
+            <button id="btn3" class="btn">C</button><hr>
+            <button id="btn4" class="btn">D</button><hr>
+        </div>
+
+        <div class="col-lg-6">
+            Win: <div id="winBox"></div>
+            Loss: <div id="loseBox"></div>
+        </div>
+    </div>
+
+
+    <audio id="audio_yes" controls style="display:none">
+        <source src="" type="audio/mpeg"> Your browser
+        does not support the audio element.</audio>
+
+    <audio id="audio_no" controls style="display:none">
+        <source src="" type="audio/mpeg"> Your browser
+        does not support the audio element.</audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
