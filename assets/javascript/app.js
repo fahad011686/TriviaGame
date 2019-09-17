@@ -1,8 +1,8 @@
-var number = 21; //set initial timer
+var number = 26; //set initial timer
 var intervalId;
 
 function runClock() { //clock functions
-    number = 20;
+    number = 26;
     intervalId = setInterval(decrement, 1000);
 }
 function decrement() {
@@ -50,7 +50,7 @@ var gameOver = 0;
 
 var score = function () {
     points += 1;
-    $("#yourScore").html(points);
+    $("#yourScore").html("Score: " + points);
 
 }
 var checkWin = function () {

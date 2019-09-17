@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke;
+}
+
+#btnStart   {
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color: rgb(252, 26, 64);
+    text-align:center;
+    transition: all 0.5s;
+    }
+
+#btnStart:hover {
+    background: #434343;
+    color: white;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.2s ease 0s;
+                }
+
+.bouncy{
+        animation:bouncy 4s infinite linear;
+        position:relative;
+        }
+        @keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+        }
+
+.btn:hover {
+    background: #434343;
+    color: white;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+            }
+
+#timebox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 10%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background: rgb(16, 16, 128);
+    padding: 10px;
+    border: 1px solid #494949;
+    border-radius:0.12em;
+    transition: all 0.4s ease 0s;
+}
+

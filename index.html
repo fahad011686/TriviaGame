@@ -17,19 +17,26 @@
 
         <div class="jumbotron">
             <h1 class="text-center">Genious Quiz</h1>
-            <h4 class="text-center">Correctly answer questions within the time limit <br>to be legally considered a stable
+            <h4 class="text-center">Correctly answer questions within the time limit <br>to be legally considered a
+                stable
                 genius.</h4>
-                <button id="btnStart">Start!</button>
+            <button id="btnStart" class="bouncy">Start!</button>
+            <br>
+
+            <div id="scorebox" class="col-lg-6 col-md-12 col-sm-12">
+                <span id="yourScore"></span>
+            </div>
+
 
         </div>
 
-
-        <div class="col-lg-6 col-md-12 col-sm-12">Timer:
+        <div id="timebox" class="col-lg-6 col-md-12 col-sm-12">Timer:
             <span id="timer"></span>
         </div>
 
+
         <div class="col-lg-12 col-md-12 col-sm-12">
-            <p id="question">Question</p>
+            <p id="question"></p>
         </div>
 
         <div class="col-lg-6 col-md-12">
@@ -43,9 +50,7 @@
             <hr>
         </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12">Score:
-            <span id="yourScore"></span>
-        </div>
+        
     </div>
 
 
